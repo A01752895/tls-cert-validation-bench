@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated certificates and temp files
+*.csr
+*.der
+*.srl
+*.log
+
+# Generated benchmark artifacts
+artifacts/pki/
+artifacts/pcaps/
+artifacts/csv/
+artifacts/plots/
+
+# Keep folder structure
+!artifacts/csv/.gitkeep
+!artifacts/plots/.gitkeep
+!artifacts/pki/.gitkeep
+!artifacts/pcaps/.gitkeep
